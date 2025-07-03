@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onmouse Event</title>
+</head>
+
+<body>
+    <div id="mySpace" class="my-space" onmouseover="mOver(this)" onmouseout="mOut(this)">
+        Hover me
+    </div>
+
+    <script>
+        function mOver(element) {
+            element.style.backgroundColor = "lightblue";
+            element.innerHTML = "Mouse is over me!";
+        }
+
+        function mOut(element) {
+            element.style.backgroundColor = "";
+            element.innerHTML = "Hover me";
+        }
+    </script>
+</body>
+
+</html>

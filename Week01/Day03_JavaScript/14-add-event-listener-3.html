@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multiple addEventListener() methods</title>
+  </head>
+  <body>
+    <button id="myBtn">Click Me</button>
+    <p id="result"></p>
+
+    <script>
+      let myBtn = document.getElementById("myBtn");
+      myBtn.addEventListener("mouseover", firstFunc);
+      myBtn.addEventListener("click", secondFunc);
+      myBtn.addEventListener("mouseout", thirdFunc);
+
+      function firstFunc() {
+        document.getElementById("result").innerHTML += "Mouse over!<br>";
+      }
+
+      function secondFunc() {
+        document.getElementById("result").innerHTML += "Clicked!<br>";
+      }
+
+      function thirdFunc() {
+        document.getElementById("result").innerHTML += "Mouse out!<br>";
+      }
+    </script>
+  </body>
+</html>

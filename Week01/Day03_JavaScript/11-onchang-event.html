@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>onchange event</title>
+  </head>
+  <body>
+    <label>Enter your full name: </label>
+    <input type="text" id="fullName" onchange="toUpperCase()" />
+
+    <script>
+      function toUpperCase() {
+        let inputField = document.getElementById("fullName");
+        inputField.value = inputField.value.toUpperCase();
+      }
+    </script>
+  </body>
+</html>

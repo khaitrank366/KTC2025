@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Personal Information</h2>
+    <div class="container">
+      <form name="accountForm" action="./17-form-result.html" method="GET">
+        Score(0-100):
+        <input type="number" name="score" min="0" max="100" /><br /><br />
+        Country code:
+        <input
+          type="text"
+          name="countryCode"
+          pattern="[A-Za-z]{2}"
+          title="Two letter country code"
+        /><br /><br />
+        Username: <input type="text" name="username" required /><br /><br />
+        Password:
+        <input
+          type="password"
+          name="password"
+          title="8 or more characters, at least one number,
+            one uppercase and lowercase letter"
+          pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}"
+          required
+        /><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

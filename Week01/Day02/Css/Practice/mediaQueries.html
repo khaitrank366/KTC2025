@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      #menu {
+        list-style-type: none;
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding-left: 35px;
+        background-color: black;
+        color: white;
+      }
+
+      li[class="menu-item"] {
+        display: inline-block;
+        width: 17%;
+        padding: 10px;
+      }
+
+      li:hover {
+        background-color: lightgray;
+        color: black;
+      }
+
+      li.menu-item::after {
+        content: "\f105";
+        color: white;
+        font-family: "Font Awesome 6 Free";
+        font-size: small;
+        font-weight: 900;
+        margin-left: 8px;
+      }
+
+      li.menu-item:hover::after {
+        content: "\f107";
+        color: black;
+      }
+
+      @media (max-width: 1023px) and (min-width: 768px) {
+        #menu {
+          padding: 0;
+          background-color: white;
+        }
+
+        li.menu-item {
+          width: 15%;
+          border-radius: 2em;
+          text-align: center;
+          background-color: black;
+          margin-left: 4px;
+        }
+
+        li.menu-item:hover {
+          background-color: lightgray;
+          color: black;
+        }
+      }
+
+      @media (max-width: 767px) {
+        #menu {
+          padding: 0;
+          background-color: black;
+          width: 100%;
+        }
+
+        li.menu-item {
+          width: 100%;
+          border-bottom: 1px solid lightgray;
+        }
+
+        li.menu-item::after {
+          content: "\f107";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="menu">
+      <li class="menu-item">BackEnd</li>
+      <li class="menu-item">FrontEnd</li>
+      <li class="menu-item">DataBase</li>
+      <li class="menu-item">DevOps</li>
+      <li class="menu-item">Cloud</li>
+    </ul>
+  </body>
+</html>

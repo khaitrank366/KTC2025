@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form
+        action="./17-form-result.html"
+        name="accountForm"
+        onsubmit="return validateForm()"
+        method="GET"
+      >
+        Username:
+        <input type="text" name="username" id="username" required /><br /><br />
+        Password:
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+        /><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script>
+      function validationForm() {
+        let form = document.forms["accountForm"];
+        let username = form["username"].value;
+        let password = form["password"].value;
+
+        if (username == "") {
+          alert("Username is required.");
+          accountForm.username.focus();
+          return false;
+        } else if (password == "") {
+          alert("Password must not be empty.");
+          accountForm.password.focus();
+          return false;
+        }
+        alert("Form submitted successfully!");
+        return true;
+      }
+    </script>
+  </body>
+</html>
