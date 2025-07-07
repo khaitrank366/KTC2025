@@ -1,0 +1,21 @@
+1. Library # Framework
+
+CSS Framework: Bootstrapm tailwind CSS
+
+2. Bootstrap # Tailwind CSS
+- Bootstrap:
++ component based approach
++ easy for begginer 
++ 12 columns -> less specific than Tailwind
++ use for project from old -> new
++ more heave than tailwind CSS
++ will need to override existing code -> no clean code
++ hard to optimi
+
+- Tailwind CSS:
++ utility based approach
++ hard for new begginer
++ 24 columns -> more specific
++ use for new project almost
++ more lightweight than bootstrap
++ will not need to override existing codes
