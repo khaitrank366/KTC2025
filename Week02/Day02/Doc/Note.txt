@@ -1,0 +1,26 @@
+SSR ( Server-Side-Rendering )
+. SEO ( Search Engine Optimization ): SEO on pages
+. Load chậm hơn CSR
+
+CSR ( Client-Side-Rendering )
+. Không tốt cho SEO bằng SSR
+. Load nhanh hơn
+
+Những câu lệnh khởi tạo dự án:
+C1: npm create vite@latest my-react-app-typescript -- --template
+C2: npx create-react-app@latest my-app
+C3: npx create vite@latest -- --template react
+C4: npx create vite@latest -- --template react 
+
+- 2 cái vite, 1 react
+
+npx create-react-app@latest 3-react-native --template react
+npx create-react-app@latest 4-react-typescript --template typescript 
+npm create vite@latest 5-react-type-vite -- --template
+
+rfce
+rcc
+
+làm lab
+khởi tạo dự án
+debug

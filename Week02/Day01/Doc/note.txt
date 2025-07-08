@@ -1,0 +1,20 @@
+Destructuring: giải nén tạo ra biến mới
+Spread Operator: giản nén để tạo ra object mới
+
+Encapsulation: POJO plan old javascript object
+Inheritace 
+Polymorohism: cùng 1 phương thức có nhiều cách khác nhau. Gồm 2 hình thức: Overloading và overdding
+- Compile Time: overriding
+- runtime
+
+Abstraction: ẩn dấu thông tin. Thể hiện phần ... giấu phần triển khai
+
+JavScript có 7 kiểu nguyên thuỷ tham trị: number, string, boolen, undefined, null, symbol, bigint
+Biến là tên gọi đại diện cho 1 ô nhớ chứa giá trị
+Tham trị: copy giá trị của biến vào ô khác 
+Tham chiếu
+
+
+trang người dùng: next.js
+trang admin: react
+backend: springboot
