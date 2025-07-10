@@ -1,7 +1,7 @@
 import type {
   LoginMessageError,
   LoginRegex,
-} from "../components/types/LoginFormTypes";
+} from "../components/types/LoginForm.types";
 
 export const MESSAGE_ERROR: LoginMessageError = {
   email: "Email error",

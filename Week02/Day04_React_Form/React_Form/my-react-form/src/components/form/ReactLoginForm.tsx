@@ -1,4 +1,4 @@
-import React, { useState, type ChangeEvent } from "react";
+import { useState, type ChangeEvent } from "react";
 import { MESSAGE_ERROR, REGEX } from "../../constants/LoginFormConstant";
 
 function ReactLoginForm() {
@@ -46,7 +46,7 @@ function ReactLoginForm() {
       </div>
       <br />
 
-      
+
       <label htmlFor="password">Password</label>
       <div
         className={`custom-input ${
