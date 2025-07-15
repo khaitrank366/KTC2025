@@ -1,0 +1,44 @@
+- tuần sau full admin
+	. Tạo full task
+	. Tạo full tính năng
+	.	
+
+Server - Hosting - Port 80, 4433
+
+https://mockapi.io/
+
+rafce
+rcc
+rfce
+
+npm install react-router-dom @types/react-router-dom
+npm install axios
+npm install --save-dev @types/axios
+
+thứ tự tạo tính năng:
+- rout -> component => type => axios => service
+
+
+- Thêm trang planning + đánh điểm cho từng feature
+
+
+- layout: những component dùng chung
+
+
+Channel
+	. View Channel info
+	. 
+
+Yêu cầu chung
+	. font chữ, cỡ chữ
+	. Theme chủ đạo
+
+Brief Tính năng & Layout
+- Channel
+- Analytics
+- Dashboard
+
+PageSpeedInside
+
+AWS: EC2, IAM, RDS
+Docker

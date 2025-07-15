@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import ReactLoginForm from './components/form/ReactLoginForm'
+import { useState } from "react";
+import "./App.css";
+import ReactLoginForm from "./components/form/ReactLoginForm";
+import RHFLoginForm from "./components/form/RHFLoginForm";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <ReactLoginForm/>
+      {/* <ReactLoginForm/> */}
+      <RHFLoginForm />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

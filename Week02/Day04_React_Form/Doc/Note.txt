@@ -1,0 +1,14 @@
+OnChange cho những component ko gọi api và để validate 
+tác vụ api -> onBlur | onMouseFocus => kiểm tra xe sđt hay email tồn tại trong dbase chưa
+
+shortcut để tạo functional component dạng arrow function trong VSCode: rafce + Enter
+
+Regex = Regular expression: biểu thức chính quy
+
+Hướng tiếp cận với validate => validate mỗi khi user xong input
+. OnChange: ko dùng để gọi api
+. OnBlur dùng để gọi api
+
+Regex101
+
+npm instal react-hook-form @hookform/resolvers yup
