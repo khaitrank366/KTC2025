@@ -1,0 +1,15 @@
+component(View) -> dispatch 1 action ( payload - dữ liệu đi kèm theo type đó vd: id sản phẩm, type - hành động reducer sẽ làm  ex: getProductByID) lên store
+Trước khi vào reducer -> phải qua middleWare -> phải gọi api -> dữ liệu trả về  payload của action
+Reducer có nhiều reducer -> lấy thuộc tính từ payload 
+
+feature vs component
+feature liên quan đến logic nhiều hơn
+component liên quan đến UI thuần ko dính với logic nhiều hơn
+
+ 
+
+
+
+
+
+
