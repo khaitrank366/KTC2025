@@ -1,18 +1,16 @@
-import { useState } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import AppRoutes01 from "./routes/AppRoutes01";
+import Counter02 from './components/Counter02'
+import TitleUpdater from "./components/TitleUpdater";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       {/* <Counter01 /> */}
       {/* <Counter02 /> */}
+      <TitleUpdater/>
       {/* <MyShop/> */}
       {/* <MyShop3/> */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <ul className="border">
           <li className="border">
             <Link to={"/"}>Home</Link>
@@ -36,8 +34,8 @@ function App() {
           </li>
         </ul>
         <AppRoutes01 />
-        {/* <AppRoutes02 /> */}
-      </BrowserRouter>
+        <AppRoutes02 />
+      </BrowserRouter> */}
     </>
   );
 }
