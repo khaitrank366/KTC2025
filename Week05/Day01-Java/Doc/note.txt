@@ -1,0 +1,27 @@
+Ctrl + Shift + P => Java: Create java project => NoBuildTool
+
+Có 4 loại if
+	. thiếu
+	. đủ
+	. lồng nhau
+	. bậc thang
+
+if khác gì switch case?
+	. if expression chỉ trả về true hoặc false
+	. switch case expression trả về string hoặc int
+	. if có thể so sánh phức tạp > < =
+
+For khác gì foreach?	
+	. for có thể custom bước lặp
+	. foreach chỉ có thể chạy từ đầu đến cuối
+
+For khác gì While
+	. For lặp với số bước biết trước
+	. While lặp với só bước không biết trước
+
+While khác gì do
+	. Do luôn thực hiện logic 1 lần trước khi kiểm tra
+	. While kiểm tra đk trước mới thực hiện logic
+
+Bất lợi của mảng
+	. Giới hạn số phần tử
